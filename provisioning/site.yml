@@ -2,22 +2,23 @@
 - name: OSX Local Provisioner
   hosts: local
   sudo: no
-  pre_tasks:
-    - stat: path=~/.ssh
-      register: ssh 
+  vars_prompt:
+    # for App Store
+    - name: appstore_id
+      prompt: "App StoreのIDを入力してください"
+      private: no
+    - name: appstore_password
+      prompt: "App Storeのパスワードを入力してください"
+      private: no
   roles:
     # App Installations
     - brew
-    - defaults
+      #- defaults
     - mas
     - brew-cask
 
     # Configurations
-    - git
-    - vim
-    - xcode
-    - zsh
-    - {
-      role: ssh,
-      when: not ssh.stat.exists
-    }
+    - karabiner
+    # - git
+    # - vim
+    # - xcode

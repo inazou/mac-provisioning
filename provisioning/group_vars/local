@@ -1,47 +1,28 @@
-homebrew_repositories: []
+homebrew_repositories:
+  - homebrew/core # example
 
 homebrew_packages:
-  - ag
-  - autojump
-  - macvim
-  - node
-  - peco
-  - tig
-  - tmux
   - tree
-  - vim
-  - zsh
-  - zsh-completions
-  - zsh-syntax-highlighting
-  - go
+  - lua
   - mas
 
 homebrew_cask_packages:
-  - 1password
-  - alfred
-  - bettertouchtool
-  - caffeine
-  - dash
-  - dropbox
-  - gas-mask
-  - google-chrome
-  - google-japanese-ime
-  - intellij-idea
-  - iterm2
-  - karabiner
-  - kindle
-  - music-manager
-  - sequel-pro
-  - skitch
-  - skype
-  - slack
-  - vagrant
-  - virtualbox
+  - google-chrome #ブラウザ
+  - firefox #ブラウザ
+  - appcleaner #アプリ削除
+  - daisydisk #ディスク容量管理
+  - slack #Slack
+  - the-unarchiver #圧縮・解凍
+  - avast # セキュリティ
+  - google-japanese-ime # google 日本語入力
+  - karabiner # キー変換(日本語切り替えに使う)
+  - iterm2 # ターミナル
+  - xtrafinder # finder拡張
 
 mas_applications:
-  - {name: 'Slack', store_hash: 803453959}
-  - {name: 'CCMenu', store_hash: 603117688}
-  - {name: 'Apple Configurator 2', store_hash: 1037126344}
+  - {name: 'Volume Reset', store_hash: 495705418} # 起動時の音量を固定
+  - {name: 'Pages', store_hash: 409201541} # word
+  - {name: 'Keynote', store_hash: 409183694} # powerPoint
+  - {name: 'Numbers', store_hash: 409203825} # exel
 
-    
 # vim:ft=ansible:
