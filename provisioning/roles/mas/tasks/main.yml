@@ -1,18 +1,21 @@
 - name: signout mas
   shell: >
     mas signout
+  when: appstore_id != ""
 
 - name: signin to mas
   shell: >
     mas signin {{appstore_id}} "{{appstore_password}}"
+  when: appstore_id != ""
 
 - name: install applications
   shell: >
     mas install {{item.store_hash}}
   with_items: "{{mas_applications}}"
-  when: mas_applications
+  when: mas_applications and appstore_id != ""
   run_once: true
 
 - name: upgrade applications
   shell: >
     mas upgrade
+  when: appstore_id != ""
