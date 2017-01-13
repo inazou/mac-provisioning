@@ -5,6 +5,7 @@ homebrew_packages:
   - tree
   - lua
   - mas
+  - bash-completion
 
 homebrew_cask_packages:
   - google-chrome #ブラウザ
