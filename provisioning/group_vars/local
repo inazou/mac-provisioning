@@ -6,6 +6,9 @@ homebrew_packages:
   - lua
   - mas
   - bash-completion
+  - nmap
+  - vim
+  - htop
 
 homebrew_cask_packages:
   - google-chrome #ブラウザ
