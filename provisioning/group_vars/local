@@ -1,5 +1,7 @@
 homebrew_repositories:
   - homebrew/core # example
+  - minerva1129/homebrew-anyenv # for anyenv
+  - homebrew/versions
 
 homebrew_packages:
   - tree
@@ -9,6 +11,17 @@ homebrew_packages:
   - nmap
   - vim
   - htop
+  - { name: anyenv, state: head }
+  - gcc #phpenvで必要
+  - re2c #phpenvで必要
+  - libmcrypt #phpenvで必要
+  - autoconf #phpenvで必要
+  - automake #phpenvで必要
+  - libiconv #phpenvで必要
+  - bison27 #phpenvで必要
+  - libjpeg #phpenvで必要
+  - libpng #phpenvで必要
+  - libxml2 #phpenvで必要
 
 homebrew_cask_packages:
   - google-chrome #ブラウザ
@@ -25,6 +38,7 @@ homebrew_cask_packages:
   - teamviewer # 遠隔操作
   - sequel-pro # mysqlクライアント
   - google-drive # クラウドドライブ
+  - docker
 
 mas_applications:
   - {name: 'Volume Reset', store_hash: 495705418} # 起動時の音量を固定
