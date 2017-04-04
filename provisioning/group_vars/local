@@ -12,7 +12,7 @@ homebrew_packages:
   - vim
   - htop
   - { name: anyenv, state: head }
-  - gcc #phpenvで必要
+  - gcc
   - re2c #phpenvで必要
   - libmcrypt #phpenvで必要
   - autoconf #phpenvで必要
@@ -39,6 +39,9 @@ homebrew_cask_packages:
   - sequel-pro # mysqlクライアント
   - google-drive # クラウドドライブ
   - docker
+  - eclipse-ide
+  - android-studio
+  - skype
 
 mas_applications:
   - {name: 'Volume Reset', store_hash: 495705418} # 起動時の音量を固定
