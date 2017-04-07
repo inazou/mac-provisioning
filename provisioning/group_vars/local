@@ -9,7 +9,7 @@ homebrew_packages:
   - mas
   - bash-completion
   - nmap
-  - vim
+  - {name: vim, install_options: with-lua}
   - htop
   - { name: anyenv, state: head }
   - gcc
@@ -22,6 +22,7 @@ homebrew_packages:
   - libjpeg #phpenvで必要
   - libpng #phpenvで必要
   - libxml2 #phpenvで必要
+  - git
 
 homebrew_cask_packages:
   - google-chrome #ブラウザ
@@ -30,9 +31,9 @@ homebrew_cask_packages:
   - daisydisk #ディスク容量管理
   - slack #Slack
   - the-unarchiver #圧縮・解凍
-  - avast # セキュリティ
+  - avast-mac-security # セキュリティ
   - google-japanese-ime # google 日本語入力
-  - karabiner # キー変換(日本語切り替えに使う)
+    #  - karabiner # キー変換(日本語切り替えに使う)
   - iterm2 # ターミナル
   - xtrafinder # finder拡張
   - teamviewer # 遠隔操作
