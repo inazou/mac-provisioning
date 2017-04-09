@@ -18,7 +18,7 @@
     - brew-cask
 
     # Configurations
-    - karabiner
+    #    - karabiner
     # - git
     # - vim
     # - xcode

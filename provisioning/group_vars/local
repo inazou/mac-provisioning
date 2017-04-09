@@ -30,11 +30,11 @@ homebrew_cask_packages:
   - daisydisk #ディスク容量管理
   - slack #Slack
   - the-unarchiver #圧縮・解凍
-  - avast # セキュリティ
+  - avast-mac-security # セキュリティ
   - google-japanese-ime # google 日本語入力
-  - karabiner # キー変換(日本語切り替えに使う)
+  - cmd-eikana # キー変換(日本語切り替えに使う)
   - iterm2 # ターミナル
-  - xtrafinder # finder拡張
+    #- xtrafinder # finder拡張
   - teamviewer # 遠隔操作
   - sequel-pro # mysqlクライアント
   - google-drive # クラウドドライブ
