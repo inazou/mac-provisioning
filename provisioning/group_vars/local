@@ -48,5 +48,6 @@ mas_applications:
   - {name: 'Pages', store_hash: 409201541} # word
   - {name: 'Keynote', store_hash: 409183694} # powerPoint
   - {name: 'Numbers', store_hash: 409203825} # exel
+  - {name: 'Xcode', store_hash: 497799835} # Xcode
 
 # vim:ft=yaml:
