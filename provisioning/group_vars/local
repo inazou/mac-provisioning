@@ -33,9 +33,9 @@ homebrew_cask_packages:
   - the-unarchiver #圧縮・解凍
   - avast-mac-security # セキュリティ
   - google-japanese-ime # google 日本語入力
-    #  - karabiner # キー変換(日本語切り替えに使う)
+  - cmd-eikana # キー変換(日本語切り替えに使う)
   - iterm2 # ターミナル
-  - xtrafinder # finder拡張
+    #- xtrafinder # finder拡張
   - teamviewer # 遠隔操作
   - sequel-pro # mysqlクライアント
   - google-drive # クラウドドライブ
@@ -49,5 +49,6 @@ mas_applications:
   - {name: 'Pages', store_hash: 409201541} # word
   - {name: 'Keynote', store_hash: 409183694} # powerPoint
   - {name: 'Numbers', store_hash: 409203825} # exel
+  - {name: 'Xcode', store_hash: 497799835} # Xcode
 
 # vim:ft=yaml:
