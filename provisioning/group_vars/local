@@ -43,6 +43,7 @@ homebrew_cask_packages:
   - eclipse-ide
   - android-studio
   - skype
+  - qblocker # Command + Q遅延
 
 mas_applications:
   - {name: 'Volume Reset', store_hash: 495705418} # 起動時の音量を固定
