@@ -36,7 +36,6 @@ homebrew_cask_packages:
   - google-japanese-ime # google 日本語入力
   - cmd-eikana # キー変換(日本語切り替えに使う)
   - iterm2 # ターミナル
-    #- xtrafinder # finder拡張
   - teamviewer # 遠隔操作
   - sequel-pro # mysqlクライアント
   - google-drive # クラウドドライブ
@@ -45,7 +44,6 @@ homebrew_cask_packages:
   - android-studio
   - skype
   - qblocker # Command + Q遅延
-  - insomniax # 蓋を閉じてもスリープさせない
 
 mas_applications:
   - {name: 'Volume Reset', store_hash: 495705418} # 起動時の音量を固定
