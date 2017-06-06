@@ -16,6 +16,8 @@
 	<integer>1</integer>
 	<key>CheckTestRelease</key>
 	<true/>
+	<key>CopySelection</key>
+	<false/>
 	<key>Custom Color Presets</key>
 	<dict>
 		<key>Fugaku</key>
@@ -405,25 +407,14 @@
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
-	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
-	<dict>
-		<key>TB Is Shown</key>
-		<integer>1</integer>
-	</dict>
-	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>970 769 620 392 0 0 2560 1417 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
-	<string>269 139 606 456 0 0 2560 1417 </string>
+	<string>269 139 606 456 0 0 1920 1200 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>763 634 796 473 0 0 2560 1417 </string>
+	<string>884 486 796 473 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>2560 83 1914 1166 2560 72 1920 1177 </string>
+	<string>31 576 822 554 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>3347 603 570 452 2560 72 1920 1177 </string>
-	<key>NSWindow Frame iTerm Window 2</key>
-	<string>1580 312 570 452 0 0 2560 1417 </string>
-	<key>NSWindow Frame iTerm Window 3</key>
-	<string>969 690 570 452 0 0 2560 1417 </string>
+	<string>1220 422 570 452 0 0 1920 1177 </string>
 	<key>NeverWarnAboutShortLivedSessions_A67241AA-D40F-4AD6-9826-E3304E7F8EF1</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_A67241AA-D40F-4AD6-9826-E3304E7F8EF1_selection</key>
@@ -1170,9 +1161,9 @@
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
-	<string>02789DE8-3CCA-4820-8205-23B3DC8B72D1</string>
+	<string>8021B030-D28E-4547-BC5D-79848A8A787C</string>
 	<key>NoSyncLastTipTime</key>
-	<real>503888663.149652</real>
+	<real>516589717.43652701</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -1180,12 +1171,33 @@
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>503369733.645706</real>
+	<real>513232748.16241002</real>
 	<key>NoSyncTipsDisabled</key>
 	<true/>
 	<key>NoSyncTipsToNotShow</key>
 	<array>
 		<string>000</string>
+		<string>0000</string>
+		<string>0001</string>
+		<string>0002</string>
+		<string>0003</string>
+		<string>0004</string>
+		<string>0005</string>
+		<string>0006</string>
+		<string>0007</string>
+		<string>0008</string>
+		<string>0009</string>
+		<string>0010</string>
+		<string>0011</string>
+		<string>0012</string>
+		<string>0013</string>
+		<string>0014</string>
+		<string>0015</string>
+		<string>0016</string>
+		<string>0017</string>
+		<string>0018</string>
+		<string>0019</string>
+		<string>0020</string>
 	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
@@ -1231,25 +1243,21 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/s.inami/mac-provisioning/provisioning/roles/iterm2/files</string>
+	<string>/Users/sota.inami/mac-provisioning/provisioning/roles/iterm2/files</string>
 	<key>QuitWhenAllWindowsClosed</key>
-	<true/>
-	<key>SUAutomaticallyUpdate</key>
 	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/testing.xml?shard=42</string>
+	<string>https://iterm2.com/appcasts/testing.xml?shard=27</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-03-24T01:07:38Z</date>
+	<date>2017-06-06T02:15:55Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
-	<key>SUSkippedVersion</key>
-	<string>3.0.13</string>
 	<key>SmartPlacement</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
