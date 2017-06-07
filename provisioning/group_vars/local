@@ -25,6 +25,7 @@ homebrew_packages:
   - git
   - ctags
   - mobile-shell #moshで途切れないsshができる(ホスト側にもmoshが必要)
+  - tmux
 
 homebrew_cask_packages:
   - google-chrome #ブラウザ
