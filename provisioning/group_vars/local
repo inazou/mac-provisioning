@@ -25,6 +25,7 @@ homebrew_packages:
   - git
   - ctags
   - { name: mobile-shell, state: head } #moshで途切れないsshができる(ホスト側にもmoshが必要)
+  - tmux
 
 homebrew_cask_packages:
   - google-chrome #ブラウザ
@@ -45,6 +46,7 @@ homebrew_cask_packages:
   - android-studio
   - skype
   - qblocker # Command + Q遅延
+  - intellij-idea
 
 mas_applications:
   - {name: 'Volume Reset', store_hash: 495705418} # 起動時の音量を固定
