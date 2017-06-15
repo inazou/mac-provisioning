@@ -410,11 +410,11 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 139 606 456 0 0 1920 1200 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>884 486 796 473 0 0 1920 1177 </string>
+	<string>884 405 937 512 0 0 1920 1200 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>31 576 822 554 0 0 1920 1177 </string>
+	<string>161 209 913 639 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>1220 422 570 452 0 0 1920 1177 </string>
+	<string>928 374 885 639 0 0 1920 1177 </string>
 	<key>NeverWarnAboutShortLivedSessions_A67241AA-D40F-4AD6-9826-E3304E7F8EF1</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_A67241AA-D40F-4AD6-9826-E3304E7F8EF1_selection</key>
@@ -1209,6 +1209,8 @@
 	<false/>
 	<key>OpenTmuxWindowsIn</key>
 	<integer>0</integer>
+	<key>PasteTabToStringTabStopSize</key>
+	<integer>4</integer>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -1255,7 +1257,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-06-06T02:15:55Z</date>
+	<date>2017-06-08T01:44:32Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SmartPlacement</key>
