@@ -9,6 +9,7 @@ homebrew_packages:
   - mas
   - bash-completion
   - nmap
+  - python # vimでエラーが出るので入れる
   - {name: vim, install_options: with-lua}
   - htop
   - { name: anyenv, state: head }
@@ -48,6 +49,8 @@ homebrew_cask_packages:
   - qblocker # Command + Q遅延
   - intellij-idea
   - browser-chooserx # アプリによってリンクで開くブラウザを変更
+  - vlc # 動画プレイヤー
+  - opera # ブラウザ
 
 mas_applications:
   - {name: 'Volume Reset', store_hash: 495705418} # 起動時の音量を固定
@@ -55,5 +58,8 @@ mas_applications:
   - {name: 'Keynote', store_hash: 409183694} # powerPoint
   - {name: 'Numbers', store_hash: 409203825} # exel
   - {name: 'Xcode', store_hash: 497799835} # Xcode
+  - {name: 'YubiKey Personalization Tool', store_hash: 638161122} # Yubikeyの設定ツール
+  - {name: 'iMovie', store_hash: 408981434}
+  - {name: 'GarageBand', store_hash: 682658836}
 
 # vim:ft=yaml:
