@@ -40,7 +40,7 @@ homebrew_cask_packages:
   - iterm2 # ターミナル
   - teamviewer # 遠隔操作
   - sequel-pro # mysqlクライアント
-  - google-drive-file-stream # クラウドドライブ
+  - google-backup-and-sync # クラウドドライブ
   - docker
   - eclipse-ide
   - android-studio
