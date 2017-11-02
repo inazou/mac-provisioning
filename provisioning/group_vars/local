@@ -27,6 +27,7 @@ homebrew_packages:
   - ctags
   - { name: mobile-shell, state: head } #moshで途切れないsshができる(ホスト側にもmoshが必要)
   - tmux
+  - chromedriver #seleniumでchromeを操作するのに必要
 
 homebrew_cask_packages:
   - google-chrome #ブラウザ
