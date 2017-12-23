@@ -5,7 +5,7 @@
 
 - name: signin to mas
   shell: >
-    mas signin {{appstore_id}} "{{appstore_password}}"
+    mas signin --dialog {{appstore_id}}
   when: appstore_id != ""
 
 - name: install applications

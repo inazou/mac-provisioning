@@ -7,9 +7,6 @@
     - name: appstore_id
       prompt: "App StoreのIDを入力してください"
       private: no
-    - name: appstore_password
-      prompt: "App Storeのパスワードを入力してください"
-      private: no
   roles:
     # App Installations
     - brew
