@@ -54,6 +54,7 @@ homebrew_cask_packages:
   - opera # ブラウザ
   - chatwork # チャットツール
   - java
+  - android-ndk # C や C++ などのネイティブ コード言語を使用して、アプリの一部を実装するためのツールセット
 
 mas_applications:
   - {name: 'Volume Reset', store_hash: 495705418} # 起動時の音量を固定
