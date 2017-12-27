@@ -2,6 +2,7 @@ homebrew_repositories:
   - homebrew/core # example
   - minerva1129/homebrew-anyenv # for anyenv
   - homebrew/versions
+  - caskroom/versions
 
 homebrew_packages:
   - tree
@@ -54,6 +55,7 @@ homebrew_cask_packages:
   - opera # ブラウザ
   - chatwork # チャットツール
   - java
+  - java8
   - android-ndk # C や C++ などのネイティブ コード言語を使用して、アプリの一部を実装するためのツールセット
 
 mas_applications:
