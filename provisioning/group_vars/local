@@ -57,6 +57,7 @@ homebrew_cask_packages:
   - java
   - java8
   - android-ndk # C や C++ などのネイティブ コード言語を使用して、アプリの一部を実装するためのツールセット
+  - sketch # UIデザインツール
 
 mas_applications:
   - {name: 'Volume Reset', store_hash: 495705418} # 起動時の音量を固定
