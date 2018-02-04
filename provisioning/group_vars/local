@@ -31,6 +31,8 @@ homebrew_packages:
   - chromedriver #seleniumでchromeを操作するのに必要
   - ffmpeg
   - glide # goのパッケージマネージャー
+  - sbt # scalaのビルドツール
+  - gpg # sbtenvで必要
 
 homebrew_cask_packages:
   - google-chrome #ブラウザ
